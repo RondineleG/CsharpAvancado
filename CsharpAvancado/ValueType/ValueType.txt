@@ -1,0 +1,16 @@
+﻿Tipos de dados são todos do Value Type :
+bool
+byte
+Caracteres
+decimal
+em dobro
+enum
+flutuador
+int
+longo
+sbyte
+baixo
+struct
+uint
+ulong
+ushort
