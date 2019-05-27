@@ -1,0 +1,11 @@
+﻿O tipo de valor armazena o valor em seu espaço de
+memória, enquanto o tipo de referência 
+armazena o endereço do valor em que está armazenado.
+
+Tipos primitivos de dados e struct são do tipo 'Value'. 
+Objetos de classe, string, array, delegados são tipos de referência.
+
+O tipo de valor passa byval por padrão. O tipo de referência passa byref por padrão.
+
+Tipos de valores e tipos de referência armazenados em Pilha e Pilha
+na memória dependem do escopo da variável.
