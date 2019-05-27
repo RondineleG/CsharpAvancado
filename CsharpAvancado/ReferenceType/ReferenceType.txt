@@ -1,0 +1,5 @@
+﻿Tipos de dados são Reference Type :
+String
+Array , mesmo que seus elementos sejam tipos de valor
+Class
+Delegates
