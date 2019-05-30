@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceType", "ReferenceT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueRef", "ValueRef\ValueRef.csproj", "{835B894F-6B83-427E-A1AB-47D0D724F1DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Value Reference Types", "Value Reference Types", "{1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trabalhando com Tipos e Objetos", "Trabalhando com Tipos e Objetos", "{1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasCSharp", "EstruturasCSharp\EstruturasCSharp.csproj", "{E531DDA0-D3AB-404D-97EA-057C6C920C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{835B894F-6B83-427E-A1AB-47D0D724F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835B894F-6B83-427E-A1AB-47D0D724F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835B894F-6B83-427E-A1AB-47D0D724F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E531DDA0-D3AB-404D-97EA-057C6C920C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E531DDA0-D3AB-404D-97EA-057C6C920C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E531DDA0-D3AB-404D-97EA-057C6C920C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E531DDA0-D3AB-404D-97EA-057C6C920C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{26348019-32FA-4F93-AA52-9F90247236CA} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{C566DC72-BBA7-4825-87EA-14F261212078} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{835B894F-6B83-427E-A1AB-47D0D724F1DE} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{E531DDA0-D3AB-404D-97EA-057C6C920C67} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
