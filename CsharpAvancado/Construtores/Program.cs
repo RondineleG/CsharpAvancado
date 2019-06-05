@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Construtores
-{   
+{
     public class Contato
     {
         public string Tipo { get; set; }
