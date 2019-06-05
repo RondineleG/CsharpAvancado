@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasCSharp", "Estrutu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtores", "Construtores\Construtores.csproj", "{45995E04-97EA-4881-91A2-5D9F2F790AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSetTradicional", "GetSetTradicional\GetSetTradicional.csproj", "{8D59FDBC-3226-4573-948B-8F3C1742D980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{45995E04-97EA-4881-91A2-5D9F2F790AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45995E04-97EA-4881-91A2-5D9F2F790AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45995E04-97EA-4881-91A2-5D9F2F790AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D59FDBC-3226-4573-948B-8F3C1742D980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D59FDBC-3226-4573-948B-8F3C1742D980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D59FDBC-3226-4573-948B-8F3C1742D980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D59FDBC-3226-4573-948B-8F3C1742D980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{835B894F-6B83-427E-A1AB-47D0D724F1DE} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{E531DDA0-D3AB-404D-97EA-057C6C920C67} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{45995E04-97EA-4881-91A2-5D9F2F790AE1} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{8D59FDBC-3226-4573-948B-8F3C1742D980} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
