@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "Objec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeInference_Dynamic", "TypeInference_Dynamic\TypeInference_Dynamic.csproj", "{49F1E887-203C-4EF9-A80F-0BD288AC47A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesEstaticas", "ClassesEstaticas\ClassesEstaticas.csproj", "{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{49F1E887-203C-4EF9-A80F-0BD288AC47A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F1E887-203C-4EF9-A80F-0BD288AC47A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F1E887-203C-4EF9-A80F-0BD288AC47A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +99,7 @@ Global
 		{E502A0FD-CB71-4B9B-9BF9-8FC26A9A7D9D} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{6B640FF6-EC8F-4A6A-9757-A6E87B82710E} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{49F1E887-203C-4EF9-A80F-0BD288AC47A5} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
