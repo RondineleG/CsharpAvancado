@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesParciais", "ClassesP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesGenericas", "ClassesGenericas\ClassesGenericas.csproj", "{91DA0C83-B976-4A27-A962-FD4F02EF2358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrosNomeados", "ParametrosNomeados\ParametrosNomeados.csproj", "{404CDA97-CB46-4115-BF38-4D9023F67699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404CDA97-CB46-4115-BF38-4D9023F67699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404CDA97-CB46-4115-BF38-4D9023F67699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404CDA97-CB46-4115-BF38-4D9023F67699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404CDA97-CB46-4115-BF38-4D9023F67699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{91DA0C83-B976-4A27-A962-FD4F02EF2358} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{404CDA97-CB46-4115-BF38-4D9023F67699} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
