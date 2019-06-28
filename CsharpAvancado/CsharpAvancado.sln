@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensaoDeClasses", "Extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesParciais", "ClassesParciais\ClassesParciais.csproj", "{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesGenericas", "ClassesGenericas\ClassesGenericas.csproj", "{91DA0C83-B976-4A27-A962-FD4F02EF2358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DA0C83-B976-4A27-A962-FD4F02EF2358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +120,7 @@ Global
 		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{91DA0C83-B976-4A27-A962-FD4F02EF2358} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
