@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TypeInference_Dynamic
+namespace TypeInferenceDynamic
 {
     public class Connection
     {

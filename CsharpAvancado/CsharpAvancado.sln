@@ -25,9 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropriedadesAutomaticas", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{6B640FF6-EC8F-4A6A-9757-A6E87B82710E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeInference_Dynamic", "TypeInference_Dynamic\TypeInference_Dynamic.csproj", "{49F1E887-203C-4EF9-A80F-0BD288AC47A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeInferenceDynamic", "TypeInference_Dynamic\TypeInferenceDynamic.csproj", "{49F1E887-203C-4EF9-A80F-0BD288AC47A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesEstaticas", "ClassesEstaticas\ClassesEstaticas.csproj", "{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensaoDeClasses", "ExtensaoDeClasses\ExtensaoDeClasses.csproj", "{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesParciais", "ClassesParciais\ClassesParciais.csproj", "{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,14 @@ Global
 		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +112,8 @@ Global
 		{6B640FF6-EC8F-4A6A-9757-A6E87B82710E} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{49F1E887-203C-4EF9-A80F-0BD288AC47A5} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 		{BE16528D-2EE5-4DCF-B546-1B48D5A553D9} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{BDCF644A-CAD3-4555-91C4-1B3BE68DEF98} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
+		{5258D718-DD3E-4D9E-8EBB-4723346A0EF6} = {1A5086CC-B18F-4A48-94A9-2B8AAEBDA58F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
