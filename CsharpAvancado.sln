@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrosNomeados", "Param
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReviuNetCore", "ReviuNetCore", "{DEEBC848-4E13-4E0A-8305-720BEFDFE43F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesEstaticasNetCore", "ReviuNetCore\ClassesEstaticasNetCore\ClassesEstaticasNetCore.csproj", "{247122BF-7CA4-45D6-9F2C-83FA2D5C3EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviuNetCore", "ReviuNetCore\ClassesEstaticasNetCore\ReviuNetCore.csproj", "{247122BF-7CA4-45D6-9F2C-83FA2D5C3EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

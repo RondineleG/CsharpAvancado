@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassesEstaticasNetCore
+namespace ReviuNetCore
 {
     class Program
     {
