@@ -10,13 +10,17 @@ namespace SobrecargaMetodosOverride
 
         public int Tamanho;
 
-        public abstract void Abrir();
+        public virtual void Abrir()
+        {
+            Console.WriteLine("Abrindo arquivo : " + Nome);
+        }
         
     }
    public class Musica : Arquivos
     {       
         public override void Abrir()
         {
+            base.Abrir();
           Console.WriteLine("Tocando Musica :" + Nome);
         }
     }
@@ -26,6 +30,7 @@ namespace SobrecargaMetodosOverride
         
         public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine("Mostrando Documento :  " + Nome);
         }
     }
@@ -35,6 +40,7 @@ namespace SobrecargaMetodosOverride
        
         public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine("Mostrando Imagem : " + Nome);
         }
     }
@@ -44,6 +50,7 @@ namespace SobrecargaMetodosOverride
 
         public override void Abrir()
         {
+            base.Abrir();
             Console.WriteLine("Mostrando Arquivo texto : " + Nome);
         }
     }
