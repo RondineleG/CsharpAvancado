@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrosSobrecarga", "Par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropriedadesIndexadas", "PropriedadesIndexadas\PropriedadesIndexadas.csproj", "{88FBDCCC-7717-4717-A93F-E8921840BA62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SobrecargaMetodosOverride", "SobrecargaMetodosOverride\SobrecargaMetodosOverride.csproj", "{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{88FBDCCC-7717-4717-A93F-E8921840BA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FBDCCC-7717-4717-A93F-E8921840BA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FBDCCC-7717-4717-A93F-E8921840BA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +165,7 @@ Global
 		{1E4339AF-33BB-4EB4-8EAE-D39C5402A7C4} = {DEEBC848-4E13-4E0A-8305-720BEFDFE43F}
 		{8EDCC709-1782-424C-B7BC-FE8739A54302} = {DEEBC848-4E13-4E0A-8305-720BEFDFE43F}
 		{88FBDCCC-7717-4717-A93F-E8921840BA62} = {DEEBC848-4E13-4E0A-8305-720BEFDFE43F}
+		{0A5D5A6F-328D-424C-BA99-7AC23F52AC7C} = {DEEBC848-4E13-4E0A-8305-720BEFDFE43F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F88E02C-655F-4E70-9C71-14641A3B3127}
