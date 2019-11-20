@@ -1,68 +1,74 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace SobrecargaMetodosOverride
 {
-   public class Musica : Object
+    public abstract class Arquivos
     {
         public string Nome;
 
         public int Tamanho;
 
-        public void Abrir()
+        public abstract void Abrir();
+        
+    }
+   public class Musica : Arquivos
+    {       
+        public override void Abrir()
         {
           Console.WriteLine("Tocando Musica :" + Nome);
         }
     }
 
-    public class DocumentoWord : Object
+    public class DocumentoWord : Arquivos
     {
-        public string Nome;
-
-        public int Tamanho;
-
-        public void Abrir()
+        
+        public override void Abrir()
         {
             Console.WriteLine("Mostrando Documento :  " + Nome);
         }
     }
 
-    public class Imagen : Object
+    public class Imagen : Arquivos
     {
-        public string Nome;
-
-        public int Tamanho;
-
-        public void Abrir()
+       
+        public override void Abrir()
         {
             Console.WriteLine("Mostrando Imagem : " + Nome);
         }
     }
 
+    public class Txt : Arquivos
+    {
+
+        public override void Abrir()
+        {
+            Console.WriteLine("Mostrando Arquivo texto : " + Nome);
+        }
+    }
     public class Windows
     {
-        private ArrayList _arquivos;
+        private List<Arquivos> _arquivos;
 
         public Windows()
         {
-            this._arquivos = new ArrayList();
+            this._arquivos = new List<Arquivos>();
         }
 
-        public void Add(object arquivo)
+        public void Add(Arquivos arquivo)
         {
             this._arquivos.Add(arquivo);
         }
 
-        public void Abrir(object arquivo)
+        public void AbrirTodos()
         {
-            if(arquivo is Musica)
-            (arquivo as Musica).Abrir();
-
-            if (arquivo is DocumentoWord)
-                (arquivo as DocumentoWord).Abrir();
-
-            if (arquivo is Imagen)
-                (arquivo as Imagen).Abrir();
+            foreach (Arquivos arquivo in _arquivos)
+                Abrir(arquivo);
+        }
+        public void Abrir(Arquivos arquivo)
+        {
+            arquivo.Abrir();
         }
     }
 }
